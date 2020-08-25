@@ -1,0 +1,64 @@
+* {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+body {
+	background-color: #76C9FF;
+}
+
+.top-bar {
+	height: 50px;
+	background-color: #000;
+	width: 100%;
+}
+
+.userImg {
+	width: 45px;
+	height: 45px;
+	float: left;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.Sign-out,.Results,.home {
+	float: right;
+	height: 48px;
+	line-height: 48px;
+	padding: 0 20px;
+	color: #fff;
+	display: block;
+	border: none;
+	background: none;
+	border-radius: 15px;
+}
+.Sign-out:hover {
+	background-color: red;
+	cursor: pointer;
+}
+.Results:hover,.home:hover {
+	background-color: blue;
+	cursor: pointer;
+}
+.active {
+	background-color: orange;
+}
+
+table {
+  width: calc(100% - 20px);
+ margin-bottom:100px;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+th {
+  height: 50px;
+}
+div{
+	text-align: center;
+}
+table, th, td {
+  border: 2px solid black;
+margin-right: auto;
+margin-left: auto;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>main-page</title>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+	<div class="top-bar">
+		<img src="dp.jpg" class="userImg" id="userImg">
+		<button class="Sign-out" id="Sign-out">Sign Out</button>
+		<button class="Results" id="Results">Results</button>
+		<button class="home active" id="home">Home</button>
+	</div>
+
+ 	<div class="table">
+ 		<div style="margin-left: 15px;padding-bottom: 5px;">Exam List</div>
+ 		<div class="row">
+ 			<div>Branch: CSE</div>
+ 			<div>Subject : Unix</div>
+ 			<div>Time: 1:00 pm</div>
+ 			<div>Duration : 1hrs</div>
+ 			<button id="Unix" onclick="clickFun('Unix')">Link</button>
+ 		</div>
+ 		<div class="row">
+ 			<div>Branch: CSE</div>
+ 			<div>Subject : Python</div>
+ 			<div>Time: 1:00 pm</div>
+ 			<div>Duration : 1hrs</div>
+ 			<button id="Python" onclick="clickFun('Python')">Link</button>
+ 		</div>
+ 		<div class="row">
+ 			<div>Branch: CSE</div>
+ 			<div>Subject : Data Structures</div>
+ 			<div>Time: 1:00 pm</div>
+ 			<div>Duration : 1hrs</div>
+ 		</div>
+ 		<div class="row">
+ 			<div>Branch: CSE</div>
+ 			<div>Subject : C#</div>
+ 			<div>Time: 1:00 pm</div>
+ 			<div>Duration : 1hrs</div>
+ 		</div>
+ 	</div>
+
+	<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase.js"></script>
+	<script src="Scripts/firebase.init.js"></script>
+	
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

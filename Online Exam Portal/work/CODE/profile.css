@@ -1,0 +1,52 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.top-bar {
+	height: 50px;
+	background-color: #000;
+	width: 100%;
+}
+
+.userImg {
+	width: 45px;
+	height: 45px;
+	margin-left: 5px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.Sign-out,.Results,.home {
+	float: right;
+	height: 48px;
+	line-height: 48px;
+	padding: 0 20px;
+	color: #fff;
+	display: block;
+	border: none;
+	background: none;
+	border-radius: 15px;
+}
+.Sign-out:hover {
+	background-color: red;
+	cursor: pointer;
+}
+.Results:hover,.home:hover {
+	background-color: blue;
+	cursor: pointer;
+}
+.pagebody {
+	position: absolute;
+	width: 100%;
+	height: calc(100% - 50px);
+	background-color: blue;
+}
+.main-image {
+	border-radius: 50%;
+}
+.text {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+}
